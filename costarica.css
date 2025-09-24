@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Blanco de la bandera */
+    color: #222;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #002b7f, #ce1126); /* Azul y rojo */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Títulos */
+h1, h2 {
+    margin: 10px 0;
+}
+
+/* Tabla de jugadores */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #ce1126; /* Rojo bandera */
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Imágenes de jugadores */
+td img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #002b7f; /* Azul bandera */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+td img:hover {
+    transform: scale(1.1);
+    border-color: #ce1126; /* Cambia a rojo al pasar el mouse */
+}
+
+/* Footer */
+footer {
+    background-color: #002b7f;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 20px;
+    border-top: 3px solid #ce1126;
+}

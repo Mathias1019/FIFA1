@@ -1,0 +1,133 @@
+/* venezuela.css */
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fdfdfd;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #800000, #002868); /* vinotinto → azul bandera */
+    padding: 25px;
+    text-align: center;
+    border-bottom: 6px solid #ffcc00; /* amarillo */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #ffffff; /* letras blancas */
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8); /* sombra negra para contraste */
+}
+
+
+
+/* Sección principal */
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #800000;
+    margin-bottom: 20px;
+}
+
+/* Tabla de jugadores */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Cabecera de tabla */
+thead th {
+    background: #002868; /* azul bandera */
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* Filas alternas */
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Hover fila */
+tbody tr:hover {
+    background: rgba(128, 0, 0, 0.1);
+    transition: background 0.3s;
+}
+
+/* Imágenes */
+img.player {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #800000;
+    display: block;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background: #800000;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+    border-top: 6px solid #002868; /* azul bandera */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        padding: 10px;
+    }
+
+    td {
+        border: none;
+        padding: 8px 0;
+    }
+
+    td img.player {
+        width: 100px;
+    }
+
+    td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #800000;
+        display: block;
+    }
+}

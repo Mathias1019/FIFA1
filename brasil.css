@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f7df1e, #009739);
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #009739;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+th {
+    background-color: #002776; /* azul de la bandera */
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+img {
+    width: 100px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #009739;
+    color: white;
+}

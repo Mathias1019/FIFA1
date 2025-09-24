@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
+
+header {
+    background-color: #C60C30; /* Rojo */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: #003478; /* Azul */
+    margin: 20px 0;
+}
+
+table {
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+thead {
+    background: #C60C30;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+td img {
+    width: 100px;
+    border: 2px solid #003478;
+    border-radius: 6px;
+}
+
+footer {
+    background: #003478;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

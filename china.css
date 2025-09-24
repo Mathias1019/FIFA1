@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8f8;
+}
+
+header {
+    background: #DE2910; /* Rojo bandera */
+    color: #FFD700; /* Amarillo */
+    text-align: center;
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: #DE2910;
+    margin: 20px 0;
+}
+
+table {
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+thead {
+    background: #DE2910;
+    color: #FFD700;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+td img {
+    width: 100px;
+    border: 2px solid #FFD700;
+    border-radius: 6px;
+}
+
+footer {
+    background: #DE2910;
+    color: #FFD700;
+    text-align: center;
+    padding: 15px;
+}

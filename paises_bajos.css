@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #111;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, red, white, blue);
+    color: #111;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table {
+    width: 90%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: #fefefe;
+}
+
+th {
+    background-color: #ff6600; /* naranja Holanda */
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+img {
+    width: 80px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #21468B; /* azul bandera */
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #fcd116, #003893, #ce1126);
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003893;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #fcd116;
+    color: #000;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ce1126;
+    color: white;
+}

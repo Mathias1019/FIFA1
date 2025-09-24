@@ -1,0 +1,44 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e30613; /* Rojo bandera */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #fff;
+    color: #e30613; /* Letras rojas */
+    border: 1px solid #e30613;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+img {
+    width: 80px;
+    border-radius: 8px;
+    border: 2px solid #e30613;
+}

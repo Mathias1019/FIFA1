@@ -1,0 +1,61 @@
+/* islassalomon.css */
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #111;
+}
+
+header {
+  background: linear-gradient(90deg, #0051ba, #fcd116, #007847); /* azul, amarillo, verde */
+  text-align: center;
+  padding: 25px;
+  border-bottom: 6px solid #0051ba;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.3rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+h2 {
+  text-align: center;
+  color: #0051ba;
+}
+
+table {
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+th {
+  background: #fcd116; /* amarillo */
+  color: #0051ba;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+img {
+  width: 120px;
+  border: 3px solid #007847; /* verde */
+  border-radius: 10px;
+}
+
+footer {
+  background: #0051ba;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+}

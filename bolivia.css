@@ -1,0 +1,148 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fdfdf4; /* tono claro con amarillo */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    color: #007a33; /* verde bandera */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+
+main h2 {
+    text-align: center;
+    color: #a31818; /* rojo bandera */
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead tr {
+    background: linear-gradient(90deg, #a31818, #ffcc00, #007a33); /* rojo-amarillo-verde */
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+thead th {
+    padding: 15px 20px;
+}
+
+tbody tr {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:hover {
+    background-color: #f1ffe8;
+}
+
+tbody td {
+    padding: 15px 20px;
+    vertical-align: top;
+}
+
+tbody td:nth-child(4) {
+    max-width: 350px;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+tbody td img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: block;
+    margin: auto;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    tbody td:nth-child(4) {
+        max-width: 200px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        display: none;
+    }
+
+    tbody tr {
+        margin-bottom: 25px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+        border-radius: 8px;
+        background: #fff;
+        padding: 15px;
+    }
+
+    tbody td {
+        padding: 10px 15px;
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+        font-size: 0.95rem;
+    }
+
+    tbody td img {
+        width: 60px;
+        height: 60px;
+        margin: 0 0 10px 0;
+        float: right;
+    }
+
+    tbody td::before {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        width: 45%;
+        white-space: nowrap;
+        font-weight: 600;
+        color: #007a33;
+        content: attr(data-label);
+    }
+}

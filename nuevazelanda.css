@@ -1,0 +1,62 @@
+/* nuevazelanda.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #222;
+}
+
+header {
+  background: black;
+  text-align: center;
+  padding: 25px;
+  border-bottom: 6px solid #ffffff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 6px rgba(255,255,255,0.5);
+}
+
+h2 {
+  text-align: center;
+  color: black;
+}
+
+table {
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+th {
+  background: black;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+img {
+  width: 120px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+footer {
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+}

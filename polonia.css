@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #fff;
+    color: #111;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, white, red);
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table {
+    width: 90%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th {
+    background-color: #dc143c; /* rojo Polonia */
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+img {
+    width: 80px;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #dc143c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

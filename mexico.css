@@ -1,0 +1,60 @@
+/* mexico.css */
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(90deg, #006847, #ffffff, #ce1126);
+  text-align: center;
+  padding: 25px;
+  border-bottom: 6px solid #006847;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  color: #000;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+h2 {
+  text-align: center;
+  color: #006847;
+}
+
+table {
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th {
+  background: #ce1126;
+  color: #fff;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+  background: #f4f4f4;
+}
+
+img {
+  width: 120px;
+  border: 3px solid #006847;
+  border-radius: 8px;
+}
+
+footer {
+  background: #ce1126;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+}

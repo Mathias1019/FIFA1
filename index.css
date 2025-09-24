@@ -1,0 +1,141 @@
+a {
+    text-decoration: none;   /* quita el subrayado */
+    color: inherit;          /* hereda el color del padre */
+}
+
+/* ====== Estilos generales ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ====== Encabezado ====== */
+header {
+    background: linear-gradient(90deg, #0066cc, #003366);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/* ====== Menú de navegación ====== */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    position: relative;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #0055aa;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+    color: white;
+}
+
+nav ul li:hover {
+    background: #003366;
+}
+
+/* ====== Submenú ====== */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background: #004080;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    padding: 8px;
+    background: transparent;
+    text-align: left;
+}
+
+nav ul li ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* ====== Contenido principal ====== */
+main {
+    padding: 40px;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+}
+
+.hijo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+}
+
+/* ====== Secciones (nieto) ====== */
+.nieto {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nieto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+}
+
+.nieto h2 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.nieto p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.nieto img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ====== Pie de página ====== */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
